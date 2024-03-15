@@ -1,0 +1,50 @@
+Laboratorio 0:
+Básico de Git y GitHub 101
+Objetivo:
+El objetivo de este laboratorio es introducir a los estudiantes en el uso básico de Git y GitHub. Los estudiantes aprenderán los comandos de Git más comunes y practicarán el trabajo con repositorios remotos en GitHub.
+Prelaboratorio:
+Investiga los siguientes comandos de Git:
+
+git init: Inicializa un nuevo repositorio Git.
+git add: Agrega cambios al área de preparación (Staging Area).
+git commit: Registre los cambios en el repositorio.
+git status: Muestra el estado actual del repositorio.
+git log: Muestra el historial de confirmaciones.
+git branch: Lista, crea o elimina ramas.
+git checkout: Cambia entre sucursales o restaurante archivos.
+git merge: Fusiona cambios de una sucursal a otra.
+Laboratorio:
+Inicializar un Repositorio Local:
+
+Usa el comando git initpara inicializar un nuevo repositorio en un directorio vacío.
+Agregar y confirmar cambios:
+
+Crea un archivo de texto en el directorio y añade contenido.
+Utilice git add .para agregar todos los cambios al área de preparación.
+Realizar un commit con git commit -m "Mensaje de commit".
+Explorar el Historial de Compromisos:
+
+Utiliza git logpara ver el historial de commits y los detalles de cada uno.
+Trabajar con Sucursales:
+
+Crea una nueva sucursal con git branch nombre_branch.
+Cambia al nuevo sucursal con git checkout nombre_branch.
+Realiza algunos cambios en la nueva sucursal y comete los cambios.
+Vuelve al ramal principal con git checkout master.
+Fusiona los cambios del nuevo rama a maestro usando git merge nombre_branch.
+Puesto Laboratorio:
+Crear una Cuenta en GitHub:
+
+Investiga cómo crear una cuenta en GitHub si aún no tienes una.
+Crear un Repositorio Remoto:
+
+Crea un nuevo repositorio en GitHub.
+Sigue las instrucciones proporcionadas por GitHub para agregar el repositorio remoto a tu repositorio local.
+Subir Cambios al Repositorio Remoto:
+
+Utiliza git pushpara subir tus cambios locales al repositorio remoto en GitHub.
+Explorar la interfaz de GitHub:
+
+Explora la interfaz de usuario de GitHub para familiarizarte con las diferentes funciones y características.
+Notas:
+Asegúrese de seguir las instrucciones paso a paso y de comprender el propósito de cada comando y acción realizada en el laboratorio. No dudes en consultar la documentación de Git y GitHub si encuentras alguna dificultad.
